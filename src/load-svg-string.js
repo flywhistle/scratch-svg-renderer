@@ -327,7 +327,7 @@ const loadSvgString = (svgString, fromVersion2) => {
         throw new Error('Document does not appear to be SVG.');
     }
     const svgTag = svgDom.documentElement;
-    normalizeSvg(svgTag, fromVersion2);
+    // normalizeSvg(svgTag, fromVersion2);
     return svgTag;
 };
 
